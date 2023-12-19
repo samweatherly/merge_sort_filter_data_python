@@ -16,6 +16,5 @@ df_merge = pd.merge(df_temp_f, df_rain_f, on="Year", how="inner")
 print(df_merge.sort_values(by="Temperature", ascending=False))
 
 sns.set(rc={"figure.figsize": (12,6)})
-sns.jointplot("Rainfall", "Temperature", data=df_merge, kind="reg")
-# sns.jointplot(data=df_merge, kind="reg")
+sns.jointplot(x="Rainfall", y="Temperature", data=df_merge, kind="reg")
 plt.show()
