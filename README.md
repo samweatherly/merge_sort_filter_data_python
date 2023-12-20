@@ -1,1 +1,1 @@
-Given CSV files, filter, sorts, and merges data before graphing with matlibplot and Seaborn.
+Given CSV files, filter, sorts, and merges data before graphing with Matlibplot and Seaborn.
